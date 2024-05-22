@@ -1,0 +1,23 @@
+<h3>Editar Dados do Aluno</h3>
+<br>
+<form action="/editar" method="post">
+    <label for="email">ID</label>
+    <input type="text" class="form-control" placeholder="Digite o ID" id="id" name="id" value="{{aluno.dataValues.id}}" readonly>
+    <br>
+    <label for="CPF">CPF:</label>
+    <input type="text" class="form-control" name="CPF" placeholder="Digite aqui o CPF do aluno" id="nome" value="{{aluno.dataValues.CPF}}">
+    <br>
+    <label for="Nome">Nome:</label>
+    <input type="text" class="form-control" name="Nome" placeholder="Digite aqui o nome do aluno" id="nome" value="{{aluno.dataValues.Nome}}">
+    <br>
+    <label for="AV1">Nota AV1:</label>
+    <input type="text"  class="form-control"name="AV1" placeholder="Digite aqui a nota da AV1" id="nome" value="{{aluno.dataValues.AV1}}">
+    <br>
+    <label for="AV2">Nota AV2:</label>
+    <input type="text" class="form-control" name="AV2" placeholder="Digite aqui a nota da AV2" id="nome" value="{{aluno.dataValues.AV2}}">
+    <br>
+    <label for="AV3">Nota AV3:</label>
+    <input type="text" class="form-control" name="AV3" placeholder="Digite aqui a nota da AV3" id="nome" value="{{aluno.dataValues.AV3}}">
+    <br>
+    <input type="submit">
+</form>
